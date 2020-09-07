@@ -252,6 +252,7 @@ const App = () => {
     setActualPlayer(ap => ap === players.length ? 1 : ap+1)
   }
 
+
   useEffect(() => {
 
   }, [actualPlayer])
